@@ -6,7 +6,7 @@ MAINTAINER sunder.narayanaswamy@gmail.com
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
             git curl wget zip unzip build-essential software-properties-common ca-certificates \
-            gpg-agent gnupg2 python3-pip python3-setuptools
+            gpg-agent gnupg2 python3-pip python3-setuptools openssh-client
 
 RUN  bash -c "pip3 install awscli"
 
